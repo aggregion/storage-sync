@@ -1,6 +1,6 @@
 {
   "name": "storage-sync",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "Library for sync cloud storage containers. Supported cloud storages: Azure Blob Storage, Amazon S3.",
   "scripts": {
     "lint": "jscs index.js lib/",
@@ -20,6 +20,7 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "jscs": "^3.0.3",
+    "mocha": "^2.4.5",
     "sinon": "^1.17.3",
     "string-to-stream": "^1.0.1"
   }
