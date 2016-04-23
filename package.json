@@ -1,14 +1,29 @@
 {
   "name": "cloud-storage-sync",
-  "version": "0.9.4",
+  "version": "0.9.5",
   "description": "Library for sync cloud storage containers. Supported cloud storages: Azure Blob Storage, Amazon S3.",
   "scripts": {
     "lint": "jscs index.js lib/",
     "pretest": "npm run lint",
     "test": "mocha --reporter spec lib/**/*.spec.js"
   },
-  "author": "Denis Bezrukov <anthrax63@gmail.com>",
+  "author": "Denis Bezrukov <anthrax63@gmail.com> (https://github.com/anthrax63)",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/aggregion/storage-sync.git"
+  },
+  "bugs": {
+      "url": "https://github.com/aggregion/storage-sync/issues"
+  },
+  "homepage": "https://github.com/aggregion/storage-sync#readme",
   "license": "ISC",
+  "keywords": [
+    "cloud",
+    "storage",
+    "azure",
+    "amazon",
+    "s3"
+  ],
   "dependencies": {
     "async": "^1.5.2",
     "aws-sdk": "^2.3.4",
