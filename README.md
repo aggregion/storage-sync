@@ -1,4 +1,4 @@
-# storage-sync
+# storage-sync [![Build Status](https://travis-ci.org/aggregion/storage-sync.svg?branch=master)](https://travis-ci.org/aggregion/storage-sync)
 Library for syncing data between cloud storage containers in any combinations. 
 
 Supported storages:
