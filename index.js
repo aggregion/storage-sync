@@ -7,7 +7,7 @@ module.exports = {
     Containers: {
         AzureBlobContainer,
         S3Container,
-        Mock
+        MockContainer
     },
     ContainerSync
 };
