@@ -1,8 +1,13 @@
+var AzureBlobContainer = require('./lib/container/azure'),
+    S3Container = require('./lib/container/s3'),
+    MockContainer = require('./lib/container/mock'),
+    ContainerSync = require('./lib/sync');
+
 module.exports = {
     Containers: {
-        AzureBlobContainer: require('./lib/container/azure'),
-        S3Container: require('./lib/container/s3'),
-        Mock: require('./lib/container/mock'),
+        AzureBlobContainer,
+        S3Container,
+        Mock
     },
-    ContainerSync: require('./lib/sync')
-}
+    ContainerSync
+};
