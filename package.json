@@ -1,6 +1,6 @@
 {
-  "name": "storage-sync",
-  "version": "0.9.3",
+  "name": "cloud-storage-sync",
+  "version": "0.9.4",
   "description": "Library for sync cloud storage containers. Supported cloud storages: Azure Blob Storage, Amazon S3.",
   "scripts": {
     "lint": "jscs index.js lib/",

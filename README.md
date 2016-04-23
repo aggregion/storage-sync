@@ -9,7 +9,7 @@ Supported storages:
 Sync Amazon S3 container to Azure BLOB container.
 
 ```
-var storageSync = require('storage-sync');
+var storageSync = require('cloud-storage-sync');
 
 var s3Container = new storageSync.Containers.S3Container('myS3Bucket', 'myAccessKey', 'mySecretKey', 'eu-westr-1');
 var azureContainer = new storageSync.Containers.AzureBlobContainer('myContainer', 'myStorageAccount', 'myAccessKey');
