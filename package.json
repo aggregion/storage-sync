@@ -13,7 +13,7 @@
     "url": "git+ssh://git@github.com/aggregion/storage-sync.git"
   },
   "bugs": {
-      "url": "https://github.com/aggregion/storage-sync/issues"
+    "url": "https://github.com/aggregion/storage-sync/issues"
   },
   "homepage": "https://github.com/aggregion/storage-sync#readme",
   "license": "ISC",
@@ -30,7 +30,8 @@
     "azure": "^0.10.6",
     "lodash": "^4.11.1",
     "s3-upload-stream": "^1.0.7",
-    "stream-buffers": "^3.0.0"
+    "stream-buffers": "^3.0.0",
+    "stream-cache": "0.0.2"
   },
   "devDependencies": {
     "chai": "^3.5.0",
