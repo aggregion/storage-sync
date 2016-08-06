@@ -40,3 +40,7 @@ containerSync.on('syncDone', (data) => {
 containerSync.sync();
 
 ```
+
+## Copyright and license
+
+Code copyright 2015-2016 Aggregion, LTD. Code released under [the ISC license](http://spdx.org/licenses/ISC). 
